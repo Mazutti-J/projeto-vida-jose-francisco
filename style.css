@@ -65,6 +65,16 @@ body {
     border-bottom: 4px solid var();
 }
 
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display:block;
+}
+
 @media screen and (min-width:768px)
     {
     .botoes {

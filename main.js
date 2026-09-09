@@ -1,13 +1,11 @@
-const botoes = document.querySelectorALL(".botao");
-// console.log(botoes);
-for(let i = 0; i < botoes.lenght; i++){
-    botoes[i].onclick = function(){
+const botoes = document.querySelectorAll(".botao");
 
-        for(let j = 0; j < botoes.lenght; j++){
-            botoes[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
+for (let i = 0; i < botoes.length; i++) {
+  botoes[i].onclick = function () {
+    for (let j = 0; j < botoes.length; j++) {
+      botoes[j].classList.remove("ativo");
     }
-    console.log();
+
+    botoes[i].classList.add("ativo");
+  };
 }
