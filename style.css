@@ -72,7 +72,11 @@ body {
 }
 
 .aba-conteudo.ativo{
-    display:block;
+    display: block;
+}
+
+.aba-conteudo{
+    display: none;
 }
 
 @media screen and (min-width:768px)
