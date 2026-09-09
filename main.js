@@ -9,5 +9,5 @@ for(let i = 0; i < botoes.lenght; i++){
 
         botoes[i].classList.add("ativo");
     }
-    console.log(i);
+    console.log();
 }
