@@ -44,7 +44,7 @@ contadores[3].textContent = calculaTempo(tempoObjetivo4);
     if (tempoFinal > 0){
       return (dias + " dias; " + horas + " horas; " + minutos + " minutos; " + segundos + " segundos.");
     } else {
-      return "☠️ O seu prazo acabou ☠️";
+      return "☠️ O SEU PRAZO ACABOU ☠️";
     }
   }
 
